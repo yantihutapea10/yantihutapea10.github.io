@@ -1,0 +1,233 @@
+/* Start Font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* End Font*/
+
+/*Start Body*/
+body {
+    color:black;
+    font-family: Roboto,Helvetica,Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/*End Body*/
+
+/* Start Dedug*/
+.bg-blue {
+    background-color: white;
+    
+}
+
+.bg-red {
+    background-color:lightslategrey;
+}
+/* End Dedug*/
+
+/* Start Container*/
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container*/
+
+/* Start Logo */
+.logo {
+    text-align: center;
+    background-image: url(../images/bg-hutan.jpg);
+    background-size: cover;
+}
+
+/* End Logo */
+
+/* Start Anchor/ Hyperlink*/
+a:link
+a:visited {
+    color: rgb(5, 17, 17);
+    text-decoration:none;
+}
+a:hover
+a:active {
+    color: brown;
+    text-decoration: underline;
+}
+/* End Anchor/ Hyperlink */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: burlywood;
+    border-radius: 4px;
+    box-shadow:
+    0 3px 5px -1px rgba (0,0,0,.2),
+    0 6px 10px 0  rgba (0,0,0,.14),
+    0 1px 18px 0  rgba (0,0,0,.12);
+}
+
+.menu-primer li {
+    border-right: 1px solid brown;
+    display: inline-block; 
+    margin: 0;  
+}
+
+.menu-primer a {
+    color:blue;
+    font-size: 18px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: Uppercase;
+}
+
+menu-primer a:hover {
+    background-color: rgba(15, 14, 15, 0.007);
+    color: £000000;
+    text-decoration:none;
+
+}
+/* End Menu Primer*/
+
+/* Start Heading*/
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+
+/* End Heading*/
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color:lightblue;
+    border: 1px solid lightcoral;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 49.9%;
+}
+.main-home-two {
+    float: right;
+    width: 49.5%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 140px;
+}
+/* End Main */
+
+/* Start Box */
+.box-heading {
+    background-color:whitesmoke;
+    border:1px solid  blue;
+    border-radius:3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0; 
+}
+
+.box-isi {
+    background-color:whitesmoke;
+    border:1px solid black;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* End Box */
+
+/* Start Testimonial*/
+.testimonial {
+    border-left: 4px solid gold;
+    margin-left: 20px;
+    padding: 20px;
+}
+/* End Testimonial*/
+
+/* Start Menu Sekunder*/
+.menu-sekunder {
+    background-color:blanchedalmond;
+    border-bottom: 1px solid ghostwhite;
+    border-top: 1px solid green;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+    
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%;
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/* End Menu Sekunder*/
+
+/* start Copyrigt*/
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright*/
